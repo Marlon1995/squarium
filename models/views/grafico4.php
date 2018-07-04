@@ -91,5 +91,5 @@ $(function () {
 
 
 	</body>
-    <button onclick="location.href='/arduino/models/web.php' " class="btn btn-danger"><strong>ATRAS</strong></button>
+    <button onclick="location.href='/squarium/models/web.php' " class="btn btn-danger"><strong>ATRAS</strong></button>
 </html>

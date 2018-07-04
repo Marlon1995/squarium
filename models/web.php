@@ -15,7 +15,7 @@
   
 	<div class="container">
 
-		<h1 style="text-align: center; font-family:'courier';"><strong> SQUARIUM SCADA-ARDUINO  </strong></h1>
+		<h1 style="text-align: center; font-family:'courier';"><strong> SQUARIUM SCADA-squarium  </strong></h1>
 	  	<form action="logout.php" name="miconfirmar" id="miconfirmar" method="POST" style="text-align:right">
       <right> <button class="btn btn-danger " type="submit">Cerrar Sesión</button></right>
 </form>
@@ -27,7 +27,7 @@
       	<!--<center><img src="pez.png" border="1" alt="Este es el ejemplo de un texto alternativo" width="75" height="50"></center>-->
       </div><br>
         	      <div style="text-align: right;">
-		  	<center><button onclick="location.href='/arduino/models/views/index.php' " class="btn btn-info"><strong>REPORTE GENERAL</strong></button></center>				
+		  	<center><button onclick="location.href='/squarium/models/views/index.php' " class="btn btn-info"><strong>REPORTE GENERAL</strong></button></center>				
 		</div><br>
 <div class="row">
   <div class="col-md-6">
@@ -41,7 +41,7 @@
 			<center>
       	<?php echo '<span style="color:blue; font-size:50px;">'.$row["temperatura"].'</span>';?>
         </center>
-        <center><button onclick="location.href='/arduino/models/views/index2.php' " class="btn btn-info"><strong>REPORTE TEMPERATURA</strong></button></center>    
+        <center><button onclick="location.href='/squarium/models/views/index2.php' " class="btn btn-info"><strong>REPORTE TEMPERATURA</strong></button></center>    
      </div>
      
 
@@ -56,7 +56,7 @@
 			<center>
       	<?php echo '<span style="color:red; font-size:50px;">'.$row["ph"].'</span>';?>
         </center>
-         <center><button onclick="location.href='/arduino/models/views/index3.php' " class="btn btn-danger"><strong>REPORTE PH</strong></button></center>  
+         <center><button onclick="location.href='/squarium/models/views/index3.php' " class="btn btn-danger"><strong>REPORTE PH</strong></button></center>  
      </div> 
       </div>
     </div>
@@ -72,7 +72,7 @@
 			<center>
       	<?php echo '<span style="color:black; font-size:50px;">'.$row["ox"].'</span>';?>
         </center>
-        <center><button onclick="location.href='/arduino/models/views/index4.php' " class="btn btn-success"><strong>REPORTE OXIGENO</strong></button></center> 
+        <center><button onclick="location.href='/squarium/models/views/index4.php' " class="btn btn-success"><strong>REPORTE OXIGENO</strong></button></center> 
      </div> 
       </div>
     </div>
@@ -85,7 +85,7 @@
 			<center>
       	<?php echo '<span style="color:green; font-size:50px;">'.$row["lumi"].'</span>';?>
         </center>
-        <center><button onclick="location.href='/arduino/models/views/index5.php' " class="btn btn-primary"><strong>REPORTE ILUMINACION</strong></button></center> 
+        <center><button onclick="location.href='/squarium/models/views/index5.php' " class="btn btn-primary"><strong>REPORTE ILUMINACION</strong></button></center> 
      </div> 
       	 <?php
 			} 

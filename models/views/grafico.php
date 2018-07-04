@@ -22,7 +22,7 @@ ${demo.css}
 $(function () {
     $('#container').highcharts({
         title: {
-            text: 'Reporte SQUARIUM Con Arduino',
+            text: 'Reporte SQUARIUM Con squarium',
 
                         x: -20 //center
         },
@@ -133,6 +133,6 @@ $(function () {
 
 
 	</body>
-    <button onclick="location.href='/arduino/models/web.php' " class="btn btn-danger"><strong>ATRAS</strong></button>
+    <button onclick="location.href='/squarium/models/web.php' " class="btn btn-danger"><strong>ATRAS</strong></button>
 </html>
 
