@@ -81,7 +81,7 @@ void loop() {
 
   Serial.println("Connecting...");
     if (client.connect(server, 80)>0) {  // Conexion con el servidor
-        client.print("GET /arduino/models/servidor.php?t="); // Enviamos los datos por GET
+        client.print("GET /squarium/models/servidor.php?t="); // Enviamos los datos por GET
         client.print(sensors.getTempCByIndex(0));
         client.print("&ph=");
         client.print(phValue);
