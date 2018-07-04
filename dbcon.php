@@ -1,5 +1,5 @@
 <?php
-$con = mysqli_connect("localhost","acuario","acuario","acuario");
+$con = mysqli_connect("172.17.0.1","acuario","acuario","acuario");
 
 // Check connection
 if (mysqli_connect_errno())

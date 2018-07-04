@@ -10,7 +10,7 @@
 </head>
 <body>
 	<?php
-		$link = new PDO('mysql:host=localhost;dbname=squarium', 'root', ''); // el campo vaciío es para la password. 
+		$link = new PDO('mysql:host=172.17.0.1;dbname=acuario', 'acuario', 'acuario'); // el campo vaciío es para la password. 
 	?>
   
 	<div class="container">
